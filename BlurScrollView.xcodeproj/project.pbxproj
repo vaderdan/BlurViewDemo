@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3014AB461BB57BF9003B26A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3014AB451BB57BF9003B26A6 /* AppDelegate.swift */; };
+		3014AB481BB57BF9003B26A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3014AB471BB57BF9003B26A6 /* ViewController.swift */; };
+		3014AB4B1BB57BF9003B26A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3014AB491BB57BF9003B26A6 /* Main.storyboard */; };
+		3014AB4D1BB57BF9003B26A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3014AB4C1BB57BF9003B26A6 /* Assets.xcassets */; };
+		3014AB501BB57BF9003B26A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3014AB4E1BB57BF9003B26A6 /* LaunchScreen.storyboard */; };
+		3014AB5B1BB57BF9003B26A6 /* BlurScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3014AB5A1BB57BF9003B26A6 /* BlurScrollViewTests.swift */; };
+		3014AB661BB57BF9003B26A6 /* BlurScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3014AB651BB57BF9003B26A6 /* BlurScrollViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3014AB571BB57BF9003B26A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3014AB3A1BB57BF9003B26A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3014AB411BB57BF9003B26A6;
+			remoteInfo = BlurScrollView;
+		};
+		3014AB621BB57BF9003B26A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3014AB3A1BB57BF9003B26A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3014AB411BB57BF9003B26A6;
+			remoteInfo = BlurScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3014AB421BB57BF9003B26A6 /* BlurScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3014AB451BB57BF9003B26A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3014AB471BB57BF9003B26A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3014AB4A1BB57BF9003B26A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3014AB4C1BB57BF9003B26A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3014AB4F1BB57BF9003B26A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3014AB511BB57BF9003B26A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3014AB561BB57BF9003B26A6 /* BlurScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3014AB5A1BB57BF9003B26A6 /* BlurScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurScrollViewTests.swift; sourceTree = "<group>"; };
+		3014AB5C1BB57BF9003B26A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3014AB611BB57BF9003B26A6 /* BlurScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3014AB651BB57BF9003B26A6 /* BlurScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurScrollViewUITests.swift; sourceTree = "<group>"; };
+		3014AB671BB57BF9003B26A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3014AB3F1BB57BF9003B26A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3014AB531BB57BF9003B26A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3014AB5E1BB57BF9003B26A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3014AB391BB57BF9003B26A6 = {
+			isa = PBXGroup;
+			children = (
+				3014AB441BB57BF9003B26A6 /* BlurScrollView */,
+				3014AB591BB57BF9003B26A6 /* BlurScrollViewTests */,
+				3014AB641BB57BF9003B26A6 /* BlurScrollViewUITests */,
+				3014AB431BB57BF9003B26A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3014AB431BB57BF9003B26A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3014AB421BB57BF9003B26A6 /* BlurScrollView.app */,
+				3014AB561BB57BF9003B26A6 /* BlurScrollViewTests.xctest */,
+				3014AB611BB57BF9003B26A6 /* BlurScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3014AB441BB57BF9003B26A6 /* BlurScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3014AB451BB57BF9003B26A6 /* AppDelegate.swift */,
+				3014AB471BB57BF9003B26A6 /* ViewController.swift */,
+				3014AB491BB57BF9003B26A6 /* Main.storyboard */,
+				3014AB4C1BB57BF9003B26A6 /* Assets.xcassets */,
+				3014AB4E1BB57BF9003B26A6 /* LaunchScreen.storyboard */,
+				3014AB511BB57BF9003B26A6 /* Info.plist */,
+			);
+			path = BlurScrollView;
+			sourceTree = "<group>";
+		};
+		3014AB591BB57BF9003B26A6 /* BlurScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3014AB5A1BB57BF9003B26A6 /* BlurScrollViewTests.swift */,
+				3014AB5C1BB57BF9003B26A6 /* Info.plist */,
+			);
+			path = BlurScrollViewTests;
+			sourceTree = "<group>";
+		};
+		3014AB641BB57BF9003B26A6 /* BlurScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3014AB651BB57BF9003B26A6 /* BlurScrollViewUITests.swift */,
+				3014AB671BB57BF9003B26A6 /* Info.plist */,
+			);
+			path = BlurScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3014AB411BB57BF9003B26A6 /* BlurScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3014AB6A1BB57BF9003B26A6 /* Build configuration list for PBXNativeTarget "BlurScrollView" */;
+			buildPhases = (
+				3014AB3E1BB57BF9003B26A6 /* Sources */,
+				3014AB3F1BB57BF9003B26A6 /* Frameworks */,
+				3014AB401BB57BF9003B26A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurScrollView;
+			productName = BlurScrollView;
+			productReference = 3014AB421BB57BF9003B26A6 /* BlurScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3014AB551BB57BF9003B26A6 /* BlurScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3014AB6D1BB57BF9003B26A6 /* Build configuration list for PBXNativeTarget "BlurScrollViewTests" */;
+			buildPhases = (
+				3014AB521BB57BF9003B26A6 /* Sources */,
+				3014AB531BB57BF9003B26A6 /* Frameworks */,
+				3014AB541BB57BF9003B26A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3014AB581BB57BF9003B26A6 /* PBXTargetDependency */,
+			);
+			name = BlurScrollViewTests;
+			productName = BlurScrollViewTests;
+			productReference = 3014AB561BB57BF9003B26A6 /* BlurScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3014AB601BB57BF9003B26A6 /* BlurScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3014AB701BB57BF9003B26A6 /* Build configuration list for PBXNativeTarget "BlurScrollViewUITests" */;
+			buildPhases = (
+				3014AB5D1BB57BF9003B26A6 /* Sources */,
+				3014AB5E1BB57BF9003B26A6 /* Frameworks */,
+				3014AB5F1BB57BF9003B26A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3014AB631BB57BF9003B26A6 /* PBXTargetDependency */,
+			);
+			name = BlurScrollViewUITests;
+			productName = BlurScrollViewUITests;
+			productReference = 3014AB611BB57BF9003B26A6 /* BlurScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3014AB3A1BB57BF9003B26A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Danny;
+				TargetAttributes = {
+					3014AB411BB57BF9003B26A6 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					3014AB551BB57BF9003B26A6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3014AB411BB57BF9003B26A6;
+					};
+					3014AB601BB57BF9003B26A6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3014AB411BB57BF9003B26A6;
+					};
+				};
+			};
+			buildConfigurationList = 3014AB3D1BB57BF9003B26A6 /* Build configuration list for PBXProject "BlurScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3014AB391BB57BF9003B26A6;
+			productRefGroup = 3014AB431BB57BF9003B26A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3014AB411BB57BF9003B26A6 /* BlurScrollView */,
+				3014AB551BB57BF9003B26A6 /* BlurScrollViewTests */,
+				3014AB601BB57BF9003B26A6 /* BlurScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3014AB401BB57BF9003B26A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3014AB501BB57BF9003B26A6 /* LaunchScreen.storyboard in Resources */,
+				3014AB4D1BB57BF9003B26A6 /* Assets.xcassets in Resources */,
+				3014AB4B1BB57BF9003B26A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3014AB541BB57BF9003B26A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3014AB5F1BB57BF9003B26A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3014AB3E1BB57BF9003B26A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3014AB481BB57BF9003B26A6 /* ViewController.swift in Sources */,
+				3014AB461BB57BF9003B26A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3014AB521BB57BF9003B26A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3014AB5B1BB57BF9003B26A6 /* BlurScrollViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3014AB5D1BB57BF9003B26A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3014AB661BB57BF9003B26A6 /* BlurScrollViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3014AB581BB57BF9003B26A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3014AB411BB57BF9003B26A6 /* BlurScrollView */;
+			targetProxy = 3014AB571BB57BF9003B26A6 /* PBXContainerItemProxy */;
+		};
+		3014AB631BB57BF9003B26A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3014AB411BB57BF9003B26A6 /* BlurScrollView */;
+			targetProxy = 3014AB621BB57BF9003B26A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3014AB491BB57BF9003B26A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3014AB4A1BB57BF9003B26A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3014AB4E1BB57BF9003B26A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3014AB4F1BB57BF9003B26A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3014AB681BB57BF9003B26A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3014AB691BB57BF9003B26A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3014AB6B1BB57BF9003B26A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlurScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medioread.BlurScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3014AB6C1BB57BF9003B26A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlurScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medioread.BlurScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3014AB6E1BB57BF9003B26A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlurScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medioread.BlurScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurScrollView.app/BlurScrollView";
+			};
+			name = Debug;
+		};
+		3014AB6F1BB57BF9003B26A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlurScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medioread.BlurScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurScrollView.app/BlurScrollView";
+			};
+			name = Release;
+		};
+		3014AB711BB57BF9003B26A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlurScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medioread.BlurScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlurScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3014AB721BB57BF9003B26A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlurScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medioread.BlurScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlurScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3014AB3D1BB57BF9003B26A6 /* Build configuration list for PBXProject "BlurScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3014AB681BB57BF9003B26A6 /* Debug */,
+				3014AB691BB57BF9003B26A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3014AB6A1BB57BF9003B26A6 /* Build configuration list for PBXNativeTarget "BlurScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3014AB6B1BB57BF9003B26A6 /* Debug */,
+				3014AB6C1BB57BF9003B26A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3014AB6D1BB57BF9003B26A6 /* Build configuration list for PBXNativeTarget "BlurScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3014AB6E1BB57BF9003B26A6 /* Debug */,
+				3014AB6F1BB57BF9003B26A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3014AB701BB57BF9003B26A6 /* Build configuration list for PBXNativeTarget "BlurScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3014AB711BB57BF9003B26A6 /* Debug */,
+				3014AB721BB57BF9003B26A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3014AB3A1BB57BF9003B26A6 /* Project object */;
+}
