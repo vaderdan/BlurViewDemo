@@ -48,14 +48,17 @@
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGs-th-DU3" userLabel="likeButton">
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGs-th-DU3" userLabel="likeButton">
                                                             <rect key="frame" x="275" y="5" width="45" height="45"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="45" id="5VE-p6-bh1"/>
                                                                 <constraint firstAttribute="height" constant="45" id="OBI-I2-5Nh"/>
                                                             </constraints>
                                                             <color key="tintColor" red="1" green="0.098102462429999995" blue="0.064169176059999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <state key="normal" image="like.png"/>
+                                                            <state key="normal" image="like_clear.png"/>
+                                                            <connections>
+                                                                <action selector="likeAction:" destination="cod-Ed-zFI" eventType="touchUpInside" id="c1Z-hM-m86"/>
+                                                            </connections>
                                                         </button>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="man.png" translatesAutoresizingMaskIntoConstraints="NO" id="spl-t9-nG0">
                                                             <rect key="frame" x="10" y="15" width="30" height="30"/>
@@ -140,7 +143,7 @@
     </scenes>
     <resources>
         <image name="cell_shadow.png" width="320" height="44"/>
-        <image name="like.png" width="21" height="18"/>
+        <image name="like_clear.png" width="21" height="18"/>
         <image name="man.png" width="128" height="128"/>
     </resources>
 </document>

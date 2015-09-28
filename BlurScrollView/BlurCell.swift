@@ -20,6 +20,10 @@ class BlurCell :UITableViewCell{
 
     @IBOutlet weak var containerView: UIView!
     
+    @IBAction func likeAction(sender: AnyObject) {
+        likeButton.selected = !likeButton.selected
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
@@ -39,6 +43,9 @@ class BlurCell :UITableViewCell{
         self.lastName.text = lastName
         self.avatar.image = avatar.resizeWithSize(self.frame.size)
         self.coverImage.image = coverImage.resizeWithSize(self.frame.size)
+        
+        self.likeButton.setImage(UIImage.init(named: "like_clear.png"), forState: .Normal)
+        self.likeButton.setImage(UIImage.init(named: "like.png"), forState: .Selected)
     }
     
     func show(){
@@ -47,7 +54,7 @@ class BlurCell :UITableViewCell{
         let animation = CAKeyframeAnimation.init()
         animation.keyPath = "transform.scale";
         animation.values = [ 1, 1.1, 1 ];
-        animation.keyTimes = [ 0.4, 0.8, 1 ];
+        animation.keyTimes = [ 0.1, 0.4, 1 ];
         animation.duration = 0.4;
     
         contentView.layer.addAnimation(animation, forKey: "shake")
@@ -66,44 +73,6 @@ class BlurCell :UITableViewCell{
             self.containerView.layoutIfNeeded()
         }
     }
-    
-//    
-//    -(void)show
-//    {
-//    dispatch_async(dispatch_get_main_queue(), ^{
-//    self.contentView.transform = CGAffineTransformIdentity;
-//    
-//    CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
-//    animation.keyPath = @"transform.scale";
-//    animation.values = @[ @1, @1.1, @1 ];
-//    animation.keyTimes = @[ @0.4, @(0.8), @1 ];
-//    animation.duration = 0.4;
-//    
-//    [self.contentView.layer addAnimation:animation forKey:@"shake"];
-//    
-//    });
-//    
-//    
-//    
-//    
-//    [UIView animateWithDuration:0.2 animations:^{
-//    CGRect frame = self.container.frame;
-//    frame.origin.y += 80;
-//    self.container.frame = frame;
-//    }];
-//    }
-//    
-//    
-//    -(void)hide
-//    {
-//    [UIView animateWithDuration:0.5 animations:^{
-//    CGRect frame = self.container.frame;
-//    frame.origin.y -= 80;
-//    self.container.frame = frame;
-//    }];
-//    }
-    
-    
 }
 
 
