@@ -30,6 +30,7 @@
 		3014AB911BB5B042003B26A6 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 3014AB8E1BB5B042003B26A6 /* man.png */; settings = {ASSET_TAGS = (); }; };
 		3014AB931BB5CBF1003B26A6 /* UIImageResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3014AB921BB5CBF1003B26A6 /* UIImageResize.swift */; settings = {ASSET_TAGS = (); }; };
 		3089133B1BB9C8B200466FC7 /* like_clear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3089133A1BB9C8B200466FC7 /* like_clear@2x.png */; settings = {ASSET_TAGS = (); }; };
+		3089133D1BB9D6F000466FC7 /* BlurAnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089133C1BB9D6F000466FC7 /* BlurAnimationHelper.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		3014AB8E1BB5B042003B26A6 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
 		3014AB921BB5CBF1003B26A6 /* UIImageResize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageResize.swift; sourceTree = "<group>"; };
 		3089133A1BB9C8B200466FC7 /* like_clear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like_clear@2x.png"; sourceTree = "<group>"; };
+		3089133C1BB9D6F000466FC7 /* BlurAnimationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurAnimationHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				3014AB4C1BB57BF9003B26A6 /* Assets.xcassets */,
 				3014AB4E1BB57BF9003B26A6 /* LaunchScreen.storyboard */,
 				3014AB511BB57BF9003B26A6 /* Info.plist */,
+				3089133C1BB9D6F000466FC7 /* BlurAnimationHelper.swift */,
 			);
 			path = BlurScrollView;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 			files = (
 				3014AB751BB57CC8003B26A6 /* BlurCell.swift in Sources */,
 				3014AB931BB5CBF1003B26A6 /* UIImageResize.swift in Sources */,
+				3089133D1BB9D6F000466FC7 /* BlurAnimationHelper.swift in Sources */,
 				3014AB481BB57BF9003B26A6 /* ViewController.swift in Sources */,
 				3014AB461BB57BF9003B26A6 /* AppDelegate.swift in Sources */,
 			);
